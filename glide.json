@@ -1,0 +1,28 @@
+[
+  {
+    "kind": "column",
+    "name": "Query JSON Array",
+    "description": "Queries a JSON array for a specified property and sub-property value.",
+    "author": "Your Name <your.email@example.com>",
+    "params": [
+      {
+        "name": "jsonArray",
+        "displayName": "JSON Array",
+        "type": "string"
+      },
+      {
+        "name": "property",
+        "displayName": "Property",
+        "type": "string"
+      },
+      {
+        "name": "subProperty",
+        "displayName": "Sub Property",
+        "type": "string"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
